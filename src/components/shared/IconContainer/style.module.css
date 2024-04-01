@@ -1,0 +1,21 @@
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background: rgb(243, 243, 243);
+  border-radius: 8px;
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  color: #000000;
+  margin-top: 8px;
+}

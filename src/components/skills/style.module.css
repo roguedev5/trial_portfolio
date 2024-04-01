@@ -1,0 +1,9 @@
+.skillHeader {
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+.skillContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

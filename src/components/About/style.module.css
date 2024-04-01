@@ -1,0 +1,44 @@
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutContent h2 {
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+.aboutFeatures {
+  margin-top: 32px;
+  margin-bottom: 0px;
+}
+
+.aboutFeatures ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.aboutFeatures li {
+  display: flex;
+  text-align: left;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.aboutFeatures li span {
+  margin-top: 5px;
+}
+
+.featureIcon {
+  display: block;
+  color: rgb(34, 197, 94);
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 1rem;
+}
+
+.aboutContent p {
+  text-align: center;
+}

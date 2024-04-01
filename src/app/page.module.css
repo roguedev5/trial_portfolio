@@ -1,0 +1,25 @@
+.main {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: __GeistMono_8a4d12, ui-monospace, SFMono-Regular, "Roboto Mono",
+    Menlo, Monaco, "Liberation Mono", "DejaVu Sans Mono", "Courier New",
+    monospace;
+  background-image: url("/blend.png"), url("/response.png");
+  /* background: linear-gradient(to right, #01012a, #01012a), url("/blend.png"),
+    url("/response.png"); */
+  background-size: cover;
+  background-position: center;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.svg {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  /* mask-image: linear-gradient(to bottom right, #fff, transparent, transparent); */
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+}

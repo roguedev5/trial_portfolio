@@ -1,0 +1,16 @@
+.textareaContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.textareaContainer textarea {
+  width: 100%;
+  border-radius: 7px;
+  padding: 15px;
+  resize: vertical;
+  border: 2px solid rgb(175, 230, 255);
+  background-color: transparent;
+}
